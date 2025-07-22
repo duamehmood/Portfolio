@@ -13,7 +13,7 @@ const Hero = () => {
                 <p className='text-[#E4ECFF] font-[400] md:text-[22px] text-[18px] tracking-[0%] leading-[120%]'>Hi! I’m Dua Mehmood, a Next.js Developer based in Bahawalpur</p>
                 <div className='flex justify-center pt-[30px] font-[500] text-[18px] '>
                     <Link to="/projects">
-                        <button className='cursor-pointer text-white flex items-center md:px-[40px] px-[20px] md:py-[15px] py-[10px] gap-2 border-[1px] border-transparent rounded-[14px] bg-gradient-to-r from-[#6971A266] to-[#272A3C80] hover:from-[#272A3C80] hover:to-[#6971A266] hover:border-[#CBACF9] transition-colors duration-200 '>See my work   <RiArrowRightUpLine /> </button>
+                        <button className='cursor-pointer text-white flex items-center md:px-[40px] px-[20px] md:py-[15px] py-[10px] gap-2 border-[1px] border-transparent rounded bg-gradient-to-r from-[#6971A266] to-[#272A3C80] hover:from-[#272A3C80] hover:to-[#6971A266] hover:border-[#CBACF9] transition-colors duration-200 '>See my work   <RiArrowRightUpLine /> </button>
                     </Link>
                 </div>
 

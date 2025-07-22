@@ -11,7 +11,7 @@ const About = () => {
           <div className="flex justify-center lg:justify-start col-span-1 lg:col-start-2">
             <figure >
               <img
-                src="./src/assets/question.jpg"
+                src="/question.jpg"
                 alt="Profile"
                 className="rounded md:border-4 border-3 border-[#CBACF9]  w-full h-full object-center"
               />
