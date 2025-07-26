@@ -60,6 +60,7 @@ const SkillsSlider = ({ children }) => {
 
   const settings = {
     dots: false,
+    arrows: false,
     infinite: true,
     slidesToShow: 9,
     slidesToScroll: 2,
@@ -70,38 +71,45 @@ const SkillsSlider = ({ children }) => {
     pauseOnHover: true,
     responsive: [
       {
-        breakpoint: 1399,
+        breakpoint: 1536,
+        settings: {
+          slidesToShow: 8,
+          slidesToScroll: 2,
+        }
+      },
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 6,
+          slidesToScroll: 2,
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 2,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 5,
+          slidesToScroll: 1,
+        }
+      },
+       {
+        breakpoint: 640,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 4,
-          infinite: true,
-          dots: false
         }
       },
       {
-        breakpoint: 1199,
+        breakpoint: 480,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          infinite: true,
-          dots: false
-        }
-      },
-      {
-        breakpoint: 991,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2
-        }
-      },
-      {
-        breakpoint: 767,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          dots: false,
-          arrows: true,
         }
       }
 
@@ -111,15 +119,15 @@ const SkillsSlider = ({ children }) => {
 
 
   return (
-    <div className='pb-20 bg-[#150430] text-white text-center'>
+    <div className='pb-20 bg-primary text-white text-center'>
       <div className="container mx-auto">
         <h2 className='text-3xl sm:text-4xl md:text-[48px] font-semibold md:pb-[40px] pb-[30px]'>
-          My <span className='text-[#CBACF9]'>Skills</span>
+          My <span className='text-secondary'>Skills</span>
         </h2>
 
         <Slider {...settings}>
           {skills.map((skill) => (
-            <div key={skill.id} className="px-4"> {/* Padding for spacing */}
+            <div key={skill.id} className="px-4"> 
               <SkillCard skill={skill} />
             </div>
           ))}

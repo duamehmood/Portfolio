@@ -30,10 +30,10 @@ const WorkExperience = () => {
     ];
 
     return (
-        <div className='pb-[100px] text-white bg-[#150430]'>
+        <div className='pb-[100px] text-white bg-primary'>
             <div className="container mx-auto">
                 <h2 className="text-center text-[32px] sm:text-[36px] md:text-[40px] lg:text-[48px] font-[600] pb-[30px] md:pb-[50px]">
-                    My <span className="text-[#CBACF9]">work experience</span>
+                    My <span className="text-secondary">work experience</span>
                 </h2>
 
                 <div className="grid grid-cols-6 md:grid-cols-6 gap-6">

@@ -4,6 +4,7 @@ import About from "../components/sections/About";
 import WorkExperience from "../components/sections/WorkExperience";
 import SkillsSlider from "../components/sections/SkillsSlider";
 import RecentProjects from "../components/sections/RecentProjects";
+import Services from "../components/sections/Services";
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <WorkExperience />
       <SkillsSlider />
       <RecentProjects />
+      <Services/>
 
     </div>
   )
