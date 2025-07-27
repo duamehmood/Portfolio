@@ -5,6 +5,7 @@ import WorkExperience from "../components/sections/WorkExperience";
 import SkillsSlider from "../components/sections/SkillsSlider";
 import RecentProjects from "../components/sections/RecentProjects";
 import Services from "../components/sections/Services";
+import Contact from "../components/sections/Contact";
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <SkillsSlider />
       <RecentProjects />
       <Services/>
+      <Contact/>
 
     </div>
   )
