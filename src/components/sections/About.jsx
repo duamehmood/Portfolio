@@ -30,7 +30,7 @@ const About = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti in at ipsum vitae ad soluta architecto dolor. Ipsam eveniet dolor neque pariatur expedita assumenda est excepturi explicabo, molestiae, odit consequuntur! Ex impedit sunt repellat debitis nam, cum maxime tenetur quod tempora mollitia molestias ratione autem veritatis minus ipsam dicta! Dolorum nam aliquid ipsam delectus culpa odit error.    
               
             </p>
-            <button className="py-3 px-6 rounded border cursor-pointer text-secondary font-semibold text-[16px] md:text-[18px] hover:bg-secondary hover:text-primary">
+            <button className="py-3 px-6 rounded border cursor-pointer text-secondary font-semibold text-[16px] md:text-[18px] hover:bg-secondary hover:text-primary transition duration-300">
               Download CV
             </button>
           </div>

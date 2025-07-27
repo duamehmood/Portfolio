@@ -11,9 +11,9 @@ const ServiceCard = ({ service }) => {
                 <RiArrowRightLongFill />
                 <img src={service.icon2} alt={service.icon2} className='w-[60px] md:w-[80px] border-1 border-secondary rounded-full' />
             </div>
-            <p className='text-[16px] text-center  sm:px-0 py-[20px] leading-[-30%]'>{service.desc}</p>
+            <p className='text-[16px] text-center text-[#f0e6ff] sm:px-0 py-[20px] leading-[-30%]'>{service.desc}</p>
             <div className=' flex justify-center'>
-                <Link className='px-4 py-2 text-[14px] sm:text-[16px] bg-white text-primary rounded font-[600] text-[16px] ' to="/contact" >Book Service Now</Link>
+                <Link className='px-4 py-2 sm:text-[16px] bg-white text-primary rounded font-[600] text-[16px] ' to="/contact" >Book Service Now</Link>
             </div>
         </div>
     )
