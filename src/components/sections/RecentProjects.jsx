@@ -10,7 +10,7 @@ const RecentProjects = () => {
             title: "Circle",
             desc: "A modern responsive web app using React and Tailwind CSS to explore planets in 3D.",
             image: "/circle.png",
-            icon1: <RiHtml5Fill className="text-orange-600" />,
+            icon1: <RiHtml5Fill className="text-orange-600 " />,
             icon2: <RiCss3Fill  className="text-blue-500"  />,
         },
         {

@@ -13,7 +13,7 @@ const ServiceCard = ({ service }) => {
             </div>
             <p className='text-[16px] text-center text-[#f0e6ff] sm:px-0 py-[20px] leading-[-30%]'>{service.desc}</p>
             <div className=' flex justify-center'>
-                <Link className='px-4 py-2 sm:text-[16px] bg-white text-primary rounded font-[600] text-[16px] ' to="/contact" >Book Service Now</Link>
+                <Link className='md:px-4 px-3 py-2 md:text-[16px] bg-white text-primary rounded font-[600] text-[14px] ' to="/contact" >Book Service Now</Link>
             </div>
         </div>
     )
