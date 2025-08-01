@@ -1,6 +1,6 @@
 
 import { RiArrowRightLongLine } from "@remixicon/react"
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -11,19 +11,36 @@ const Navbar = () => {
                     <h2 className="font-bold text-[24px] text-secondary">Dua Mehmood</h2>
                     <ul className='flex text-md md:gap-8 gap-1 text-white font-semibold'>
                         <li>
-                            <Link to="/" className="px-4 py-2 rounded-full border-2 border-transparent transition-colors duration-100 hover:border-[#CBACF9] hover:text-[#CBACF9] ">Home</Link>
+                            <NavLink to="/" className={({ isActive }) => `px-4 py-2 rounded-full border-2 transition-colors duration-100 ${isActive
+                                        ? "border-[#CBACF9] text-[#CBACF9]"
+                                        : "border-transparent text-white hover:border-[#CBACF9] hover:text-[#CBACF9]"}`}>
+                                Home
+                            </NavLink>
+
                         </li>
                         <li>
-                            <Link to="/projects" className="px-4 py-2 rounded-full border-2 border-transparent transition-colors duration-100 hover:border-[#CBACF9] hover:text-secondary " >Projects</Link>
+                             <NavLink to="/projects" className={({ isActive }) => `px-4 py-2 rounded-full border-2 transition-colors duration-100 ${isActive
+                                        ? "border-[#CBACF9] text-[#CBACF9]"
+                                        : "border-transparent text-white hover:border-[#CBACF9] hover:text-[#CBACF9]"}`}>
+                                Projects
+                            </NavLink>
                         </li>
                         <li>
-                           <a href="#skills" className="px-4 py-2 rounded-full border-2 border-transparent transition-colors duration-100 hover:border-[#CBACF9] hover:text-secondary " >Skills</a> 
+                             <NavLink to="/skills" className={({ isActive }) => `px-4 py-2 rounded-full border-2 transition-colors duration-100 ${isActive
+                                        ? "border-[#CBACF9] text-[#CBACF9]"
+                                        : "border-transparent text-white hover:border-[#CBACF9] hover:text-[#CBACF9]"}`}>
+                                Skills
+                            </NavLink>
                         </li>
                         <li>
-                            <Link to="/contact" className="px-4 py-2 rounded-full border-2 border-transparent transition-colors duration-100 hover:border-[#CBACF9] hover:text-secondary " >Contact</Link>
+                            <NavLink to="/contact" className={({ isActive }) => `px-4 py-2 rounded-full border-2 transition-colors duration-100 ${isActive
+                                        ? "border-[#CBACF9] text-[#CBACF9]"
+                                        : "border-transparent text-white hover:border-[#CBACF9] hover:text-[#CBACF9]"}`}>
+                                Contact
+                            </NavLink>
                         </li>
                     </ul>
-                    
+
                 </div>
             </div>
         </nav>

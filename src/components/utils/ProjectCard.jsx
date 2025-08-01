@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom"
-import { RiArrowRightUpLine, RiCss3Fill, RiHtml5Fill } from "@remixicon/react"
+import { RiArrowRightUpLine } from "@remixicon/react"
 
 
 const ProjectCard = ({ project }) => {
@@ -17,11 +16,9 @@ const ProjectCard = ({ project }) => {
                     {project.icon3 && <span>{project.icon3}</span>}
                     {project.icon4 && <span>{project.icon4}</span>}
                 </div>
-                <Link to="/projects">
-                    <button className="flex items-center bg-white text-[#4a2486] md:text-[16px] text-[14px] md:px-4 px-3 sm:py-2 py-1 rounded-full font-[600] cursor-pointer shadow-none hover:shadow-[0_0_15px_#CBACF9] hover:bg-secondary transition duration-200">
+                    <a href={project.liveLink} target="_blank" className="flex items-center bg-white text-[#4a2486] md:text-[16px] text-[14px] md:px-4 px-3 sm:py-2 py-1 rounded-full font-[600] cursor-pointer shadow-none hover:shadow-[0_0_15px_#CBACF9] hover:bg-secondary transition duration-200">
                         Live Site <RiArrowRightUpLine size="22" />
-                    </button>
-                </Link>
+                    </a>
             </div>
         </div>
     )

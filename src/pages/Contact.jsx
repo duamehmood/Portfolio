@@ -48,10 +48,10 @@ const Contact = () => {
             </div>
              <div className='flex md:gap-5 gap-3 '>
             <a href="https://github.com/duamehmood" target="_blank">
-            <RiGithubFill className=' p-1 border-1 rounded-full size-10 hover:text-secondary' />
+            <RiGithubFill className=' p-1 border-1 rounded-full size-8 hover:text-secondary text-[#c2c1c4]' />
             </a>
             <a href="https://www.linkedin.com/in/duamehmood/" target="_blank">
-            <RiLinkedinBoxFill className=' p-1 border-1 rounded-full size-10 hover:text-secondary' />
+            <RiLinkedinBoxFill className=' p-1 border-1 rounded-full size-8 hover:text-secondary text-[#c2c1c4]' />
             </a>
             
           </div>
