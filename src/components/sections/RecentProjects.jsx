@@ -11,7 +11,8 @@ const RecentProjects = () => {
             desc: "A modern responsive web app using React and Tailwind CSS to explore planets in 3D.",
             image: "/circle.png",
             icon1: <RiHtml5Fill className="text-orange-600 " />,
-            icon2: <RiCss3Fill  className="text-blue-500"  />,
+            icon2: <RiCss3Fill className="text-blue-500" />,
+            liveLink: "https://github.com/duamehmood/circle",
         },
         {
             id: 2,
@@ -19,8 +20,8 @@ const RecentProjects = () => {
             desc: "A full-featured Zoom-like app made with React, enabling secure online meetings.",
             image: "/logitech.png",
             icon1: <RiHtml5Fill className="text-orange-600" />,
-            icon2: <RiCss3Fill className="text-blue-500"  />,
-
+            icon2: <RiCss3Fill className="text-blue-500" />,
+            liveLink: "https://github.com/duamehmood/logitech",
         },
         {
             id: 3,
@@ -31,16 +32,18 @@ const RecentProjects = () => {
             icon2: <RiJavascriptFill className="text-yellow-400" />,
             icon3: <RiBootstrapFill className="text-purple-700" />,
             icon4: <RiReactjsLine className="text-blue-300" />,
+            liveLink: "https://movie-db-gxt6.vercel.app",
         },
         {
             id: 4,
             title: "Fiver",
             desc: "A stunning 3D animated iPhone model site made with Three.js and React.",
             image: "/fiver.png",
-            icon1: <RiHtml5Fill className="text-orange-600"  />,
+            icon1: <RiHtml5Fill className="text-orange-600" />,
             icon2: <RiJavascriptFill className="text-yellow-400" />,
-            icon3: <RiTailwindCssFill className="text-blue-400" />,
+            icon3: <RiBootstrapFill className="text-purple-700" />,
             icon4: <RiReactjsLine className="text-blue-300" />,
+            liveLink: "https://reactfiverclone.vercel.app",
         }
     ];
 
@@ -59,12 +62,7 @@ const RecentProjects = () => {
                     ))}
                 </div>
 
-
-
-
             </div>
-
-
         </div>
     )
 }
