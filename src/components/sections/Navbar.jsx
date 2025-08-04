@@ -27,7 +27,7 @@ const Navbar = () => {
                         <li>
                             <NavLink to="/" className={({ isActive }) => `px-4 py-2 rounded-full border-2 transition-colors duration-100 ${isActive
                                 ? "border-[#CBACF9] text-[#CBACF9]"
-                                : "border-transparent text-white hover:border-[#CBACF9] hover:text-[#CBACF9]"}`}>
+                                : "border-transparent text-white hover:border-[#CBACF9] "}`}>
                                 Home
                             </NavLink>
 
@@ -35,21 +35,21 @@ const Navbar = () => {
                         <li>
                             <NavLink to="/projects" className={({ isActive }) => `px-4 py-2 rounded-full border-2 transition-colors duration-100 ${isActive
                                 ? "border-[#CBACF9] text-[#CBACF9]"
-                                : "border-transparent text-white hover:border-[#CBACF9] hover:text-[#CBACF9]"}`}>
+                                : "border-transparent text-white hover:border-[#CBACF9] "}`}>
                                 Projects
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to="/skills" className={({ isActive }) => `px-4 py-2 rounded-full border-2 transition-colors duration-100 ${isActive
+                            <NavLink to="/services" className={({ isActive }) => `px-4 py-2 rounded-full border-2 transition-colors duration-100 ${isActive
                                 ? "border-[#CBACF9] text-[#CBACF9]"
-                                : "border-transparent text-white hover:border-[#CBACF9] hover:text-[#CBACF9]"}`}>
-                                Skills
+                                : "border-transparent text-white hover:border-[#CBACF9]"}`}>
+                                Services
                             </NavLink>
                         </li>
                         <li>
                             <NavLink to="/contact" className={({ isActive }) => `px-4 py-2 rounded-full border-2 transition-colors duration-100 ${isActive
                                 ? "border-[#CBACF9] text-[#CBACF9]"
-                                : "border-transparent text-white hover:border-[#CBACF9] hover:text-[#CBACF9]"}`}>
+                                : "border-transparent text-white hover:border-[#CBACF9] "}`}>
                                 Contact
                             </NavLink>
                         </li>

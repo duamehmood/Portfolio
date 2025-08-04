@@ -1,17 +1,20 @@
 
 import ProjectCard from "../utils/ProjectCard"
-import { RiBootstrapFill, RiCss3Fill, RiHtml5Fill, RiJavascriptFill, RiReactjsLine, RiTailwindCssFill } from "@remixicon/react"
+import { RiBootstrapFill, RiCss3Fill, RiEyeLine, RiHtml5Fill, RiJavascriptFill, RiReactjsLine } from "@remixicon/react"
+import { Link } from 'react-router-dom';
 
 const RecentProjects = () => {
 
-    const projectsData = [
+   const projectsData = [
         {
             id: 1,
             title: "Circle",
             desc: "A modern responsive web app using React and Tailwind CSS to explore planets in 3D.",
             image: "/circle.png",
-            icon1: <RiHtml5Fill className="text-orange-600 " />,
-            icon2: <RiCss3Fill className="text-blue-500" />,
+            icons: [
+                 <RiHtml5Fill className="text-orange-600" />,
+                 <RiCss3Fill className="text-blue-500" />,
+            ],
             liveLink: "https://github.com/duamehmood/circle",
         },
         {
@@ -19,8 +22,10 @@ const RecentProjects = () => {
             title: "Logitech",
             desc: "A full-featured Zoom-like app made with React, enabling secure online meetings.",
             image: "/logitech.png",
-            icon1: <RiHtml5Fill className="text-orange-600" />,
-            icon2: <RiCss3Fill className="text-blue-500" />,
+            icons: [
+                    <RiHtml5Fill className="text-orange-600" />,
+                    <RiCss3Fill className="text-blue-500" />,
+            ],
             liveLink: "https://github.com/duamehmood/logitech",
         },
         {
@@ -28,10 +33,12 @@ const RecentProjects = () => {
             title: "MovieDB",
             desc: "A SaaS platform to generate and edit AI images using modern web tools.",
             image: "/moviedb.png",
-            icon1: <RiHtml5Fill className="text-orange-600" />,
-            icon2: <RiJavascriptFill className="text-yellow-400" />,
-            icon3: <RiBootstrapFill className="text-purple-700" />,
-            icon4: <RiReactjsLine className="text-blue-300" />,
+            icons: [
+                <RiHtml5Fill className="text-orange-600" />,
+                <RiJavascriptFill className="text-yellow-400" />,
+                <RiBootstrapFill className="text-purple-700" />,
+                <RiReactjsLine className="text-blue-300" />,
+            ],
             liveLink: "https://movie-db-gxt6.vercel.app",
         },
         {
@@ -39,10 +46,12 @@ const RecentProjects = () => {
             title: "Fiver",
             desc: "A stunning 3D animated iPhone model site made with Three.js and React.",
             image: "/fiver.png",
-            icon1: <RiHtml5Fill className="text-orange-600" />,
-            icon2: <RiJavascriptFill className="text-yellow-400" />,
-            icon3: <RiBootstrapFill className="text-purple-700" />,
-            icon4: <RiReactjsLine className="text-blue-300" />,
+            icons: [
+                <RiHtml5Fill className="text-orange-600" />,
+                <RiJavascriptFill className="text-yellow-400" />,
+                <RiBootstrapFill className="text-purple-700" />,
+                <RiReactjsLine className="text-blue-300" />,
+            ],
             liveLink: "https://reactfiverclone.vercel.app",
         }
     ];
@@ -60,6 +69,14 @@ const RecentProjects = () => {
                             <ProjectCard project={project} />
                         </div>
                     ))}
+                </div>
+
+                <div className='flex justify-center lg:pt-[50px] md:pt-[30px] pt-[20px] font-[500] lg:text-[18px] text-[16px]'>
+                        <Link to="/projects">
+                            <button className='cursor-pointer text-white flex items-center md:px-[30px] px-[20px] md:py-[15px] py-[10px] gap-2 border-[1px] border-transparent rounded bg-gradient-to-r from-[#6971A266] to-[#272A3C80] hover:from-[#272A3C80] hover:to-[#6971A266] hover:border-secondary  hover:shadow-[0_0_12px_#CBACF9]/40 transition-all duration-200'>
+                             <RiEyeLine size="20" className="text-secondary"/>  View All Projects 
+                            </button>
+                        </Link>
                 </div>
 
             </div>

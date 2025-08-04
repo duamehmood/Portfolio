@@ -1,7 +1,7 @@
+ import React from 'react'
 
-import { RiEyeLine } from "@remixicon/react";
-import { Link } from 'react-router-dom';
-import ServiceCard from "../utils/ServiceCard"
+import ServiceDetailCard from "../components/utils/ServiceDetailCard";
+
 
 const Services = () => {
 
@@ -13,28 +13,46 @@ const Services = () => {
             icon1: "/figma.png",
             icon2: "/html.png",
         },
-
         {
             id: 2,
+            title: "Figma to React",
+            desc: " Converting your Figma designs into dynamic React components.",
+            icon1: "/figma.png",
+            icon2: "/react.png",
+        },
+        {
+            id: 3,
             title: "Figma to Next.js",
             desc: " Building SEO-friendly Next.js applications from your Figma designs.",
             icon1: "/figma.png",
             icon2: "/next.png",
         },
-
         {
-            id: 3,
+            id: 4,
+            title: "PSD to HTML",
+            desc: " Transforming your PSD designs into responsive HTML/CSS code.",
+            icon1: "/psd.png",
+            icon2: "/html.png",
+        },
+        {
+            id: 5,
             title: "PSD to React ",
             desc: " Converting your PSD designs into dynamic React components.",
             icon1: "/psd.png",
             icon2: "/react.png",
         },
-
+        {
+            id: 6,
+            title: "PSD to Next.js",
+            desc: " Building SEO-friendly Next.js applications from your PSD designs.",
+            icon1: "/psd.png",
+            icon2: "/next.png",
+        }
 
 
     ]
     return (
-        <div className='pb-[100px] text-white bg-primary'>
+        <div className='pb-[100px] text-white bg-gradient-to-b from-[#04071D] via-[#150430] to-[#150430]'>
             <div className="container mx-auto">
                 <h2 className="text-center text-[32px] sm:text-[36px] md:text-[40px] lg:text-[48px] font-[600] pb-[30px] md:pb-[50px]">
                     My <span className="text-secondary">Services</span>
@@ -42,18 +60,10 @@ const Services = () => {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {servicesData.map((service) => (
-                        <div key={service.id} className="transition-transform duration-300 hover:-translate-y-2">
-                            <ServiceCard service={service} />
+                        <div key={service.id} className="transition-all duration-300 transform hover:-translate-y-2 hover:shadow-[0_0_20px_#CBACF9]/40">
+                            <ServiceDetailCard service={service} />
                         </div>
                     ))}
-                </div>
-
-                <div className='flex justify-center lg:pt-[50px] md:pt-[30px] pt-[20px] font-[500] lg:text-[18px] text-[16px]'>
-                    <Link to="/services">
-                        <button className='cursor-pointer text-white flex items-center md:px-[30px] px-[20px] md:py-[15px] py-[10px] gap-2 border-[1px] border-transparent rounded bg-gradient-to-r from-[#6971A266] to-[#272A3C80] hover:from-[#272A3C80] hover:to-[#6971A266] hover:border-secondary hover:shadow-[0_0_12px_#CBACF9]/40 transition-all duration-200'>
-                            <RiEyeLine size="20" className="text-secondary" />  View All Services
-                        </button>
-                    </Link>
                 </div>
 
             </div>

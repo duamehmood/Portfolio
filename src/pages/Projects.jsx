@@ -13,8 +13,10 @@ const Projects = () => {
       desc: "A modern responsive web app using React and Tailwind CSS to explore planets in 3D.",
       image: "/circle.png",
       tech: ["html", "css"],
-      icon1: <RiHtml5Fill className="text-orange-600" />,
-      icon2: <RiCss3Fill className="text-blue-500" />,
+      icons: [
+        <RiHtml5Fill className="text-orange-600" />,
+        <RiCss3Fill className="text-blue-500" />,
+      ],
       liveLink: "https://github.com/duamehmood/circle",
     },
     {
@@ -23,8 +25,10 @@ const Projects = () => {
       desc: "A full-featured Zoom-like app made with React, enabling secure online meetings.",
       image: "/logitech.png",
       tech: ["html", "css"],
-      icon1: <RiHtml5Fill className="text-orange-600" />,
-      icon2: <RiCss3Fill className="text-blue-500" />,
+      icons: [
+        <RiHtml5Fill className="text-orange-600" />,
+        <RiCss3Fill className="text-blue-500" />,
+      ],
       liveLink: "https://github.com/duamehmood/logitech",
     },
     {
@@ -33,10 +37,12 @@ const Projects = () => {
       desc: "A SaaS platform to generate and edit AI images using modern web tools.",
       image: "/moviedb.png",
       tech: ["html", "javascript", "bootstrap", "react"],
-      icon1: <RiHtml5Fill className="text-orange-600" />,
-      icon2: <RiJavascriptFill className="text-yellow-400" />,
-      icon3: <RiBootstrapFill className="text-purple-700" />,
-      icon4: <RiReactjsLine className="text-blue-300" />,
+      icons: [
+        <RiHtml5Fill className="text-orange-600" />,
+        <RiJavascriptFill className="text-yellow-400" />,
+        <RiBootstrapFill className="text-purple-700" />,
+        <RiReactjsLine className="text-blue-300" />,
+      ],
       liveLink: "https://movie-db-gxt6.vercel.app",
     },
     {
@@ -45,10 +51,12 @@ const Projects = () => {
       desc: "A stunning 3D animated iPhone model site made with Three.js and React.",
       image: "/fiver.png",
       tech: ["html", "javascript", "bootstrap", "react"],
-      icon1: <RiHtml5Fill className="text-orange-600" />,
-      icon2: <RiJavascriptFill className="text-yellow-400" />,
-      icon3: <RiBootstrapFill className="text-purple-700" />,
-      icon4: <RiReactjsLine className="text-blue-300" />,
+      icons: [
+        <RiHtml5Fill className="text-orange-600" />,
+        <RiJavascriptFill className="text-yellow-400" />,
+        <RiBootstrapFill className="text-purple-700" />,
+        <RiReactjsLine className="text-blue-300" />,
+      ],
       liveLink: "https://reactfiverclone.vercel.app",
     },
     {
@@ -57,10 +65,12 @@ const Projects = () => {
       desc: "A stunning 3D animated iPhone model site made with Three.js and React.",
       image: "/moviedb.png",
       tech: ["html", "javascript", "tailwind", "react"],
-      icon1: <RiHtml5Fill className="text-orange-600" />,
-      icon2: <RiJavascriptFill className="text-yellow-400" />,
-      icon3: <RiTailwindCssFill className="text-blue-400" />,
-      icon4: <RiReactjsLine className="text-blue-300" />,
+      icons: [
+        <RiHtml5Fill className="text-orange-600" />,
+        <RiJavascriptFill className="text-yellow-400" />,
+        <RiTailwindCssFill className="text-blue-400" />,
+        <RiReactjsLine className="text-blue-300" />,
+      ],
       liveLink: "https://movie-db-gxt6.vercel.app",
     },
     {
@@ -69,10 +79,12 @@ const Projects = () => {
       desc: "A stunning 3D animated iPhone model site made with Three.js and React.",
       image: "/moviedb.png",
       tech: ["html", "javascript", "tailwind", "react"],
-      icon1: <RiHtml5Fill className="text-orange-600" />,
-      icon2: <RiJavascriptFill className="text-yellow-400" />,
-      icon3: <RiTailwindCssFill className="text-blue-400" />,
-      icon4: <RiReactjsLine className="text-blue-300" />,
+      icons: [
+        <RiHtml5Fill className="text-orange-600" />,
+        <RiJavascriptFill className="text-yellow-400" />,
+        <RiTailwindCssFill className="text-blue-400" />,
+        <RiReactjsLine className="text-blue-300" />,
+      ],
       liveLink: "https://movie-db-gxt6.vercel.app",
     },
     {
@@ -81,10 +93,12 @@ const Projects = () => {
       desc: "A stunning 3D animated iPhone model site made with Three.js and React.",
       image: "/moviedb.png",
       tech: ["html", "javascript", "tailwind", "react"],
-      icon1: <RiHtml5Fill className="text-orange-600" />,
-      icon2: <RiJavascriptFill className="text-yellow-400" />,
-      icon3: <RiTailwindCssFill className="text-blue-400" />,
-      icon4: <RiReactjsLine className="text-blue-300" />,
+      icons: [
+        <RiHtml5Fill className="text-orange-600" />,
+        <RiJavascriptFill className="text-yellow-400" />,
+        <RiTailwindCssFill className="text-blue-400" />,
+        <RiReactjsLine className="text-blue-300" />,
+      ],
       liveLink: "https://movie-db-gxt6.vercel.app",
     },
     {
@@ -93,10 +107,12 @@ const Projects = () => {
       desc: "A stunning 3D animated iPhone model site made with Three.js and React.",
       image: "/moviedb.png",
       tech: ["html", "javascript", "tailwind", "react"],
-      icon1: <RiHtml5Fill className="text-orange-600" />,
-      icon2: <RiJavascriptFill className="text-yellow-400" />,
-      icon3: <RiTailwindCssFill className="text-blue-400" />,
-      icon4: <RiReactjsLine className="text-blue-300" />,
+      icons: [
+        <RiHtml5Fill className="text-orange-600" />,
+        <RiJavascriptFill className="text-yellow-400" />,
+        <RiTailwindCssFill className="text-blue-400" />,
+        <RiReactjsLine className="text-blue-300" />,
+      ],
       liveLink: "https://movie-db-gxt6.vercel.app",
     },
     {
@@ -105,10 +121,12 @@ const Projects = () => {
       desc: "A stunning 3D animated iPhone model site made with Three.js and React.",
       image: "/moviedb.png",
       tech: ["html", "javascript", "tailwind", "react"],
-      icon1: <RiHtml5Fill className="text-orange-600" />,
-      icon2: <RiJavascriptFill className="text-yellow-400" />,
-      icon3: <RiTailwindCssFill className="text-blue-400" />,
-      icon4: <RiReactjsLine className="text-blue-300" />,
+      icons: [
+        <RiHtml5Fill className="text-orange-600" />,
+        <RiJavascriptFill className="text-yellow-400" />,
+        <RiTailwindCssFill className="text-blue-400" />,
+        <RiReactjsLine className="text-blue-300" />,
+      ],
       liveLink: "https://movie-db-gxt6.vercel.app",
     },
   ];
@@ -141,10 +159,11 @@ const Projects = () => {
             <button
               key={tech}
               onClick={() => setSelectedTech(tech)}
-              className={`px-4 py-2 rounded-full font-semibold text-sm transition-all ${selectedTech === tech
-                ? "bg-secondary text-white shadow-[0_0_15px_#CBACF9]"
-                : "bg-white text-[#4a2486] hover:bg-secondary hover:text-white"}`
-              }>
+              className={`px-4 py-2 rounded-full font-medium text-sm transition-colors duration-300
+              ${selectedTech === tech
+                  ? "bg-primary text-[#CBACF9] border border-[#CBACF9]"
+                  : " border border-transparent bg-[#9389b5] text-white"
+                }`}>
               {tech.toUpperCase()}
             </button>
           ))}
