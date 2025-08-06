@@ -17,7 +17,7 @@ const Projects = () => {
         <RiHtml5Fill className="text-orange-600" />,
         <RiCss3Fill className="text-blue-500" />,
       ],
-      liveLink: "https://github.com/duamehmood/circle",
+      liveLink: "https://duamehmood.github.io/Circle/",
     },
     {
       id: 2,
@@ -29,7 +29,7 @@ const Projects = () => {
         <RiHtml5Fill className="text-orange-600" />,
         <RiCss3Fill className="text-blue-500" />,
       ],
-      liveLink: "https://github.com/duamehmood/logitech",
+      liveLink: " https://duamehmood.github.io/Logitech/",
     },
     {
       id: 3,

@@ -21,7 +21,7 @@ const Contact = () => {
             <textarea rows="5" placeholder="Your Message" className="w-full bg-transparent border border-white/20 px-4 py-3 rounded-md focus:border-secondary focus:outline-none placeholder:text-gray-400 transition"
             />
 
-            <button type="submit" className="mt-2 w-full bg-[#a58cd9] hover:bg-[#7b68b8] py-3 rounded-md flex items-center justify-center gap-2 transition cursor-pointer shadow-md">
+            <button type="submit" className="mt-2 w-full bg-[#7b68b8] hover:bg-white hover:text-[#533e99] hover:font-[600] py-3 rounded-md flex items-center justify-center gap-2 transition cursor-pointer shadow-md">
               Send Message <RiSendPlaneFill size={20} />
             </button>
           </form>
