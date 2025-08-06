@@ -18,7 +18,7 @@ const ProjectCard = ({ project }) => {
                 <a
                     href={project.liveLink}
                     target="_blank"
-                    className="flex items-center gap-1 bg-[#7b68b8] text-white md:text-[16px] text-[14px] md:px-4 px-3 sm:py-2 py-1 rounded-full font-semibold cursor-pointer transition-colors duration-300 hover:bg-[#e6e0fa] hover:text-[#4a2486]"
+                    className="flex items-center gap-1 bg-[#7b68b8] text-white md:text-[16px] text-[14px] md:px-4 px-3 sm:py-2 py-1 rounded font-semibold cursor-pointer transition-colors duration-300 hover:bg-[#e6e0fa] hover:text-[#4a2486]"
                 >
                     Live Site <RiArrowRightUpLine size="20" />
                 </a>

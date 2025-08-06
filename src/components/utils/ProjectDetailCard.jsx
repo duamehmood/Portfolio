@@ -9,14 +9,14 @@ const ProjectDetailCard = ({ project }) => {
             <p className="pb-4 text-[#f0e6ff]">
                 {project.desc}
             </p>
-            <div className="justify-between flex md:gap-0 gap-2">
-                <div className="flex items-center md:gap-2 gap-1">
+            <div className="justify-between flex xl:flex-row sm:flex-col md:gap-0 gap-2">
+                <div className="flex items-center md:gap-2 gap-1 xl:pb-0 sm:pb-4 pb-0">
                     {project.icons && project.icons.map((icon, index) => (
                         <span key={index}>{icon}</span>
                     ))}
                 </div>
 
-                <a href={project.liveLink} target="_blank" className="flex items-center gap-1 bg-[#7b68b8] text-white md:text-[16px] text-[14px] md:px-4 px-3 sm:py-2 py-1 rounded-full font-semibold cursor-pointer transition-colors duration-300 hover:bg-[#e6e0fa] hover:text-[#4a2486]" >
+                <a href={project.liveLink} target="_blank" className="flex justify-center items-center gap-1 bg-[#7b68b8] text-white md:text-[16px] text-[14px] md:px-4 px-3 sm:py-2 py-1 rounded font-semibold cursor-pointer transition-colors duration-300 hover:bg-[#e6e0fa] hover:text-[#4a2486]" >
                     Live Site <RiArrowRightUpLine size="20" />
                 </a>
 

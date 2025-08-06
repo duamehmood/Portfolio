@@ -30,7 +30,7 @@ const WorkExperience = () => {
     ];
 
     return (
-        <div className='pb-[100px] text-white bg-primary'>
+        <div className='lg:pb-[100px] md:pb-[70px] pb-[50px] text-white bg-primary'>
             <div className="container mx-auto">
                 <h2 className="text-center text-[32px] sm:text-[36px] md:text-[40px] lg:text-[48px] font-[600] pb-[30px] md:pb-[50px]">
                     My <span className="text-secondary">work experience</span>

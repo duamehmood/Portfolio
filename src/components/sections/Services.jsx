@@ -34,7 +34,7 @@ const Services = () => {
 
     ]
     return (
-        <div className='pb-[100px] text-white bg-primary'>
+        <div className='lg:pb-[100px] md:pb-[70px] pb-[50px] text-white bg-primary'>
             <div className="container mx-auto">
                 <h2 className="text-center text-[32px] sm:text-[36px] md:text-[40px] lg:text-[48px] font-[600] pb-[30px] md:pb-[50px]">
                     My <span className="text-secondary">Services</span>
@@ -50,7 +50,7 @@ const Services = () => {
 
                 <div className='flex justify-center lg:pt-[50px] md:pt-[30px] pt-[20px] font-[500] lg:text-[18px] text-[16px]'>
                     <Link to="/services">
-                        <button className='cursor-pointer text-white flex items-center md:px-[30px] px-[20px] md:py-[15px] py-[10px] gap-2 border-[1px] border-transparent rounded bg-gradient-to-r from-[#6971A266] to-[#272A3C80] hover:from-[#272A3C80] hover:to-[#6971A266] hover:border-secondary hover:shadow-[0_0_12px_#CBACF9]/40 transition-all duration-200'>
+                        <button className='cursor-pointer text-white flex items-center md:px-[30px] px-[20px] md:py-[15px] py-[10px] gap-2 border-[1px] border-transparent rounded bg-gradient-to-r from-[#6971A266] to-[#272A3C80] hover:from-[#272A3C80] hover:to-[#6971A266] hover:border-secondary  transition-all duration-200'>
                             <RiEyeLine size="20" className="text-secondary" />  View All Services
                         </button>
                     </Link>

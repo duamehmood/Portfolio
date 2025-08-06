@@ -171,7 +171,7 @@ const Projects = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {filteredProjects.map((project) => (
-            <div key={project.id} className="transition-all duration-300 transform hover:-translate-y-2 hover:shadow-[0_0_20px_#CBACF9]/40">
+            <div key={project.id} className="transition-all duration-300 transform hover:-translate-y-2 hover:shadow-[0_0_15px_#CBACF9]/40">
               <ProjectDetailCard project={project} />
             </div>
           ))}

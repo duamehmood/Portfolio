@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Hero = () => {
     return (
-        <div className='w-full md:py-32 py-[50px] text-center bg-gradient-to-b from-[#04071D] via-[#0C0E23] to-primary'>
+        <div className=' md:py-32 py-[50px] text-center bg-gradient-to-b from-[#04071D] via-[#0C0E23] to-primary'>
             <div className="container mx-auto">
                 <p className='font-[400] text-[16px] sm:tracking-[25%] tracking-[15%] text-[#E4ECFF] uppercase'>Dynamic Web Magic with Next.js</p>
                 <h1 className='pt-[20px] pb-[30px] font-[700] lg:text-[72px] md:text-[56px] text-[44px] tracking-[-3.6%] leading-[100%] text-white xl:px-[100px] px-0'>Transforming Concepts into Seamless  <span className='text-secondary'>User Experiences</span> </h1>
