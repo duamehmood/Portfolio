@@ -1,9 +1,9 @@
  @import "tailwindcss";
 
- .grid-bg{
+ /* .grid-bg{
     background-image: linear-gradient(rgba(174, 134, 176, 0.5) 1px, transparent 2px),linear-gradient(90deg, rgba(174, 134, 176, 0.5) 1px, transparent 2px);
     background-size: 60px 60px;
-  }
+  } */
 
  @theme inline {
    --color-primary: #150430;
