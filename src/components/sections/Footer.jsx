@@ -1,6 +1,5 @@
 
 import { RiGithubFill, RiLinkedinBoxFill, RiWhatsappLine } from '@remixicon/react'
-import React from 'react'
 
 const Footer = () => {
   return (

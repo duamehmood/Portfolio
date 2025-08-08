@@ -1,5 +1,5 @@
-import { RiArrowRightUpLine } from "@remixicon/react"
 
+import { RiArrowRightUpLine } from "@remixicon/react"
 
 const ProjectCard = ({ project }) => {
     return (
@@ -10,7 +10,7 @@ const ProjectCard = ({ project }) => {
                 {project.desc}
             </p>
             <div className="justify-between flex gap-2 md:gap-0">
-                <div className="flex items-center md:gap-2 gap-1">
+                <div className="flex items-center md:gap-2 gap-1  ">
                      {project.icons && project.icons.map((icon, index) => (
                         <span key={index}>{icon}</span>
                     ))}

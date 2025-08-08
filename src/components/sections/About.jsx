@@ -1,32 +1,3 @@
-//  import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-
-// const About = () => {
-//   return (
-//     <section className="pb-[100px] bg-primary">
-//       <div className="max-w-7xl mx-auto flex flex-col items-center text-center">
-//         <h2 className="text-5xl md:text-6xl font-extrabold text-white leading-tight mb-6">
-//           Crafting <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-purple-400 bg-clip-text text-transparent">Dynamic Web Experiences</span>
-//         </h2>
-
-//         <p className="text-xl text-gray-300 mb-6 max-w-3xl">
-//           I'm <span className="font-semibold text-white">Dua Mehmood</span>, a <span className="text-purple-400">Next.js Developer</span> from Bahawalpur, Pakistan.
-//           I turn creative ideas into high-performing, interactive websites with clean code and design precision.
-//         </p>
-
-//         <p className="text-lg text-gray-400 mb-10 max-w-2xl">
-//           From transforming Figma prototypes to crafting seamless user interfaces, I focus on delivering digital products that feel intuitive, responsive, and visually compelling.
-//         </p>
-
-//         <a href="/path-to-cv.pdf" className=" cursor-pointer text-white flex items-center md:px-[30px] px-[20px] md:py-[15px] py-[10px] gap-2 border-[1px] border-transparent rounded bg-gradient-to-r from-[#6971A266] to-[#272A3C80] hover:from-[#272A3C80] hover:to-[#6971A266] hover:border-secondary transition-colors duration-200 font-[500] lg:text-[18px] text-[16px]">
-//           Download CV
-//         </a>
-//       </div>
-//     </section>
-//   )
-// }
-// export default About
-
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

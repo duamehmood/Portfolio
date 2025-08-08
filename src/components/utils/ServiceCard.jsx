@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { RiArrowRightLongFill } from "@remixicon/react";
 import { Link } from 'react-router-dom';
 

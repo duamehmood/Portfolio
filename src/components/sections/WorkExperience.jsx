@@ -1,4 +1,4 @@
-import React from 'react';
+
 import ExpCard from '../utils/ExpCard';
 
 const WorkExperience = () => {

@@ -1,4 +1,4 @@
-import React from 'react';
+
 import SkillCard from '../utils/SkillCard';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
