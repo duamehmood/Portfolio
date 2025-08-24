@@ -43,7 +43,7 @@ const Projects = () => {
         <RiBootstrapFill className="text-purple-700" />,
         <RiReactjsLine className="text-blue-300" />,
       ],
-      liveLink: "https://movie-db-gxt6.vercel.app",
+      liveLink: "https://movie-db-dm-sigma.vercel.app",
     },
     {
       id: 4,
