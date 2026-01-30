@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import ProjectDetailCard from "../components/utils/ProjectDetailCard";
-import { RiBootstrapFill, RiCss3Fill, RiHtml5Fill, RiJavascriptFill, RiReactjsLine, RiTailwindCssFill } from "@remixicon/react";
+import { RiBootstrapFill, RiCss3Fill, RiHtml5Fill, RiJavascriptFill, RiReactjsLine, RiTailwindCssFill, RiDatabaseFill, RiServerFill } from "@remixicon/react";
 
 const Projects = () => {
   const [selectedTech, setSelectedTech] = useState("All");
@@ -10,7 +10,7 @@ const Projects = () => {
     {
       id: 1,
       title: "Circle",
-      desc: "A modern responsive web app using React and Tailwind CSS to explore planets in 3D.",
+      desc: "Modern SaaS landing page highlighting features, testimonials, and call-to-action sections.",
       image: "/circle.png",
       tech: ["html", "css"],
       icons: [
@@ -22,19 +22,21 @@ const Projects = () => {
     {
       id: 2,
       title: "Logitech",
-      desc: "A full-featured Zoom-like app made with React, enabling secure online meetings.",
+      desc: "Responsive product landing page clone showcasing Logitech products and features.",
       image: "/logitech.png",
       tech: ["html", "css"],
       icons: [
         <RiHtml5Fill className="text-orange-600" />,
         <RiCss3Fill className="text-blue-500" />,
+        <RiBootstrapFill className="text-purple-700" />
+
       ],
       liveLink: " https://duamehmood.github.io/Logitech/",
     },
     {
       id: 3,
       title: "MovieDB",
-      desc: "A SaaS platform to generate and edit AI images using modern web tools.",
+      desc: "API-powered movie app displaying detailed information like genres, languages, and ratings.",
       image: "/moviedb.png",
       tech: ["html", "javascript", "bootstrap", "react"],
       icons: [
@@ -48,7 +50,7 @@ const Projects = () => {
     {
       id: 4,
       title: "Fiver",
-      desc: "A stunning 3D animated iPhone model site made with Three.js and React.",
+      desc: "React-based freelance marketplace clone with gigs browsing and modern UI experience.",
       image: "/fiver.png",
       tech: ["html", "javascript", "bootstrap", "react"],
       icons: [
@@ -61,74 +63,20 @@ const Projects = () => {
     },
     {
       id: 5,
-      title: "Fiver",
-      desc: "A stunning 3D animated iPhone model site made with Three.js and React.",
-      image: "/moviedb.png",
-      tech: ["html", "javascript", "tailwind", "react"],
+      title: "Mediconnect",
+      desc: "Online doctor appointment system for booking consultations and managing healthcare schedules.",
+      image: "/mediconnect.png",
+      tech: ["html", "tailwind", "javascript", "django" , "SQLite3"],
       icons: [
         <RiHtml5Fill className="text-orange-600" />,
+        <RiTailwindCssFill className="text-teal-400" />,
         <RiJavascriptFill className="text-yellow-400" />,
-        <RiTailwindCssFill className="text-blue-400" />,
-        <RiReactjsLine className="text-blue-300" />,
+        <RiServerFill className="text-green-600" />,
+        <RiDatabaseFill className="text-gray-500" />
       ],
-      liveLink: "https://movie-db-gxt6.vercel.app",
+      liveLink: "http://duamehmood.pythonanywhere.com/",
     },
-    {
-      id: 6,
-      title: "Fiver",
-      desc: "A stunning 3D animated iPhone model site made with Three.js and React.",
-      image: "/moviedb.png",
-      tech: ["html", "javascript", "tailwind", "react"],
-      icons: [
-        <RiHtml5Fill className="text-orange-600" />,
-        <RiJavascriptFill className="text-yellow-400" />,
-        <RiTailwindCssFill className="text-blue-400" />,
-        <RiReactjsLine className="text-blue-300" />,
-      ],
-      liveLink: "https://movie-db-gxt6.vercel.app",
-    },
-    {
-      id: 7,
-      title: "Fiver",
-      desc: "A stunning 3D animated iPhone model site made with Three.js and React.",
-      image: "/moviedb.png",
-      tech: ["html", "javascript", "tailwind", "react"],
-      icons: [
-        <RiHtml5Fill className="text-orange-600" />,
-        <RiJavascriptFill className="text-yellow-400" />,
-        <RiTailwindCssFill className="text-blue-400" />,
-        <RiReactjsLine className="text-blue-300" />,
-      ],
-      liveLink: "https://movie-db-gxt6.vercel.app",
-    },
-    {
-      id: 8,
-      title: "Fiver",
-      desc: "A stunning 3D animated iPhone model site made with Three.js and React.",
-      image: "/moviedb.png",
-      tech: ["html", "javascript", "tailwind", "react"],
-      icons: [
-        <RiHtml5Fill className="text-orange-600" />,
-        <RiJavascriptFill className="text-yellow-400" />,
-        <RiTailwindCssFill className="text-blue-400" />,
-        <RiReactjsLine className="text-blue-300" />,
-      ],
-      liveLink: "https://movie-db-gxt6.vercel.app",
-    },
-    {
-      id: 9,
-      title: "Fiver",
-      desc: "A stunning 3D animated iPhone model site made with Three.js and React.",
-      image: "/moviedb.png",
-      tech: ["html", "javascript", "tailwind", "react"],
-      icons: [
-        <RiHtml5Fill className="text-orange-600" />,
-        <RiJavascriptFill className="text-yellow-400" />,
-        <RiTailwindCssFill className="text-blue-400" />,
-        <RiReactjsLine className="text-blue-300" />,
-      ],
-      liveLink: "https://movie-db-gxt6.vercel.app",
-    },
+
   ];
 
   const techOptions = ["All", "html", "javascript", "tailwind", "bootstrap", "react"];

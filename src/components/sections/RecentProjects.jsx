@@ -1,59 +1,68 @@
 
 import ProjectCard from "../utils/ProjectCard"
-import { RiBootstrapFill, RiCss3Fill, RiEyeLine, RiHtml5Fill, RiJavascriptFill, RiReactjsLine } from "@remixicon/react"
+import { RiBootstrapFill, RiCss3Fill, RiEyeLine, RiHtml5Fill, RiJavascriptFill, RiReactjsLine,RiTailwindCssFill,RiDatabaseFill, RiServerFill  } from "@remixicon/react"
 import { Link } from 'react-router-dom';
 
 const RecentProjects = () => {
 
-   const projectsData = [
+    const projectsData = [
+
         {
-            id: 1,
-            title: "Circle",
-            desc: "A modern responsive web app using React and Tailwind CSS to explore planets in 3D.",
-            image: "/circle.png",
-            icons: [
-                 <RiHtml5Fill className="text-orange-600" />,
-                 <RiCss3Fill className="text-blue-500" />,
-            ],
-            liveLink: " https://duamehmood.github.io/Circle/",
-        },
-        {
-            id: 2,
-            title: "Logitech",
-            desc: "A full-featured Zoom-like app made with React, enabling secure online meetings.",
-            image: "/logitech.png",
-            icons: [
-                    <RiHtml5Fill className="text-orange-600" />,
-                    <RiCss3Fill className="text-blue-500" />,
-            ],
-            liveLink: " https://duamehmood.github.io/Logitech/",
-        },
-        {
-            id: 3,
-            title: "MovieDB",
-            desc: "A SaaS platform to generate and edit AI images using modern web tools.",
-            image: "/moviedb.png",
-            icons: [
-                <RiHtml5Fill className="text-orange-600" />,
-                <RiJavascriptFill className="text-yellow-400" />,
-                <RiBootstrapFill className="text-purple-700" />,
-                <RiReactjsLine className="text-blue-300" />,
-            ],
-            liveLink: "https://movie-db-dm-sigma.vercel.app",
-        },
-        {
-            id: 4,
-            title: "Fiver",
-            desc: "A stunning 3D animated iPhone model site made with Three.js and React.",
-            image: "/fiver.png",
-            icons: [
-                <RiHtml5Fill className="text-orange-600" />,
-                <RiJavascriptFill className="text-yellow-400" />,
-                <RiBootstrapFill className="text-purple-700" />,
-                <RiReactjsLine className="text-blue-300" />,
-            ],
-            liveLink: "https://reactfiverclone.vercel.app",
-        }
+      id: 1,
+      title: "Logitech",
+      desc: "Responsive product landing page clone showcasing Logitech products, features and promotional sections.",
+      image: "/logitech.png",
+      tech: ["html", "css"],
+      icons: [
+        <RiHtml5Fill className="text-orange-600" />,
+        <RiCss3Fill className="text-blue-500" />,
+        <RiBootstrapFill className="text-purple-700" />
+      ],
+      liveLink: " https://duamehmood.github.io/Logitech/",
+    },
+    {
+      id: 2,
+      title: "MovieDB",
+      desc: "API-powered movie app displaying detailed information like genres, languages, and ratings.",
+      image: "/moviedb.png",
+      tech: ["html", "javascript", "bootstrap", "react"],
+      icons: [
+        <RiHtml5Fill className="text-orange-600" />,
+        <RiJavascriptFill className="text-yellow-400" />,
+        <RiBootstrapFill className="text-purple-700" />,
+        <RiReactjsLine className="text-blue-300" />,
+      ],
+      liveLink: "https://movie-db-dm-sigma.vercel.app",
+    },
+    {
+      id: 3,
+      title: "Fiver",
+      desc: "React-based freelance marketplace clone with gigs browsing and modern UI experience.",
+      image: "/fiver.png",
+      tech: ["html", "javascript", "bootstrap", "react"],
+      icons: [
+        <RiHtml5Fill className="text-orange-600" />,
+        <RiJavascriptFill className="text-yellow-400" />,
+        <RiBootstrapFill className="text-purple-700" />,
+        <RiReactjsLine className="text-blue-300" />,
+      ],
+      liveLink: "https://reactfiverclone.vercel.app",
+    },
+    {
+      id: 4,
+      title: "Mediconnect",
+      desc: "Online doctor appointment system for booking consultations and managing healthcare schedules.",
+      image: "/mediconnect.png",
+      tech: ["html", "tailwind", "javascript", "django" , "SQLite3"],
+      icons: [
+        <RiHtml5Fill className="text-orange-600" />,
+        <RiTailwindCssFill className="text-teal-400" />,
+        <RiJavascriptFill className="text-yellow-400" />,
+        <RiServerFill className="text-green-600" />,
+        <RiDatabaseFill className="text-gray-500" />
+      ],
+      liveLink: "http://duamehmood.pythonanywhere.com/",
+    }
     ];
 
     return (
@@ -72,11 +81,11 @@ const RecentProjects = () => {
                 </div>
 
                 <div className='flex justify-center lg:pt-[50px] md:pt-[30px] pt-[20px] font-[500] lg:text-[18px] text-[16px]'>
-                        <Link to="/projects">
-                            <button className='cursor-pointer text-white flex items-center md:px-[30px] px-[20px] md:py-[15px] py-[10px] gap-2 border-[1px] border-transparent rounded bg-gradient-to-r from-[#6971A266] to-[#272A3C80] hover:from-[#272A3C80] hover:to-[#6971A266] hover:border-secondary transition-all duration-200'>
-                             <RiEyeLine size="20" className="text-secondary"/>  View All Projects 
-                            </button>
-                        </Link>
+                    <Link to="/projects">
+                        <button className='cursor-pointer text-white flex items-center md:px-[30px] px-[20px] md:py-[15px] py-[10px] gap-2 border-[1px] border-transparent rounded bg-gradient-to-r from-[#6971A266] to-[#272A3C80] hover:from-[#272A3C80] hover:to-[#6971A266] hover:border-secondary transition-all duration-200'>
+                            <RiEyeLine size="20" className="text-secondary" />  View All Projects
+                        </button>
+                    </Link>
                 </div>
 
             </div>
