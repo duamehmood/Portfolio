@@ -16,6 +16,8 @@ const Projects = () => {
       icons: [
         <RiHtml5Fill className="text-orange-600" />,
         <RiCss3Fill className="text-blue-500" />,
+        <RiBootstrapFill className="text-purple-700" />
+
       ],
       liveLink: "https://duamehmood.github.io/Circle/",
     },
