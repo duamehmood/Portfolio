@@ -76,6 +76,20 @@ const Projects = () => {
       ],
       liveLink: "http://duamehmood.pythonanywhere.com/",
     },
+     {
+      id: 6,
+      title: "FitnessTracker",
+      desc: "A web application for tracking workouts, monitoring progress, and managing daily fitness goals.",
+      image: "/fitnesstracker.png",
+      tech: ["html", "tailwind", "javascript", "react"],
+      icons: [
+        <RiHtml5Fill className="text-orange-600" />,
+        <RiTailwindCssFill className="text-teal-400" />,
+        <RiJavascriptFill className="text-yellow-400" />,
+        <RiReactjsLine className="text-blue-300" />,
+      ],
+      liveLink: "https://fitness-tracker-dm.vercel.app",
+    },
 
   ];
 
