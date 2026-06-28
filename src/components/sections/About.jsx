@@ -24,7 +24,7 @@ const About = () => {
         </p>
 
         <a
-          href="/Dua-Mehmood-CV.pdf"
+          href="/DuaMehmood_Resume.pdf"
           download="DuaMehmood_Resume.pdf"
           className="cursor-pointer text-white flex items-center justify-center px-5 py-3 sm:px-6 sm:py-3 md:px-[30px] md:py-[15px] gap-2 border border-transparent rounded bg-gradient-to-r from-[#6971A266] to-[#272A3C80] hover:from-[#272A3C80] hover:to-[#6971A266] hover:border-secondary transition-colors duration-200 font-medium text-sm sm:text-base lg:text-[18px]"
         >
