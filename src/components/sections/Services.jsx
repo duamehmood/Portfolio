@@ -8,10 +8,10 @@ const Services = () => {
     const servicesData = [
         {
             id: 1,
-            title: "Figma to HTML",
-            desc: "Transforming your Figma designs into pixel-perfect HTML/CSS code.",
+            title: "Figma to Next.js",
+            desc: " Building SEO-friendly Next.js applications from your Figma designs.",
             icon1: "/figma.png",
-            icon2: "/html.png",
+            icon2: "/next.png",
         },
 
         {

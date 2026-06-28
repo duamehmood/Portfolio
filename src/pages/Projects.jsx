@@ -37,6 +37,19 @@ const Projects = () => {
     },
     {
       id: 3,
+      title: "FitnessTracker",
+      desc: "A web application for tracking workouts, monitoring progress, and managing daily fitness goals.",
+      image: "/fitnesstracker.png",
+      tech: ["html", "tailwind", "react"],
+      icons: [
+        <RiHtml5Fill className="text-orange-600" />,
+        <RiTailwindCssFill className="text-teal-400" />,
+        <RiReactjsLine className="text-blue-300" />,
+      ],
+      liveLink: "https://fitness-tracker-dm.vercel.app",
+    },
+    {
+      id: 4,
       title: "MovieDB",
       desc: "API-powered movie app displaying detailed information like genres, languages, and ratings.",
       image: "/moviedb.png",
@@ -50,7 +63,7 @@ const Projects = () => {
       liveLink: "https://movie-db-dm-sigma.vercel.app",
     },
     {
-      id: 4,
+      id: 5,
       title: "Fiver",
       desc: "React-based freelance marketplace clone with gigs browsing and modern UI experience.",
       image: "/fiver.png",
@@ -64,11 +77,11 @@ const Projects = () => {
       liveLink: "https://reactfiverclone.vercel.app",
     },
     {
-      id: 5,
+      id: 6,
       title: "Mediconnect",
       desc: "Online doctor appointment system for booking consultations and managing healthcare schedules.",
       image: "/mediconnect.png",
-      tech: ["html", "tailwind", "javascript", "django" , "SQLite3"],
+      tech: ["html", "tailwind", "javascript", "django", "SQLite3"],
       icons: [
         <RiHtml5Fill className="text-orange-600" />,
         <RiTailwindCssFill className="text-teal-400" />,
@@ -78,20 +91,39 @@ const Projects = () => {
       ],
       liveLink: "http://duamehmood.pythonanywhere.com/",
     },
-     {
-      id: 6,
-      title: "FitnessTracker",
-      desc: "A web application for tracking workouts, monitoring progress, and managing daily fitness goals.",
-      image: "/fitnesstracker.png",
+    {
+      id: 7,
+      title: "CityFix",
+      desc: "Civic tech platform supporting real-time crowd-sourced issue tracking and a community upvote prioritization system",
+      image: "/cityfix.png",
+      tech: ["html", "tailwind", "javascript", "django", "SQLite3"],
+
+      icons: [
+        <RiHtml5Fill className="text-orange-600" />,
+        <RiTailwindCssFill className="text-teal-400" />,
+        <RiJavascriptFill className="text-yellow-400" />,
+        <RiServerFill className="text-green-600" />,
+        <RiDatabaseFill className="text-gray-500" />
+      ],
+      liveLink: "http://cityfix.pythonanywhere.com/",
+
+    },
+    {
+      id: 8,
+      title: "Finect",
+      desc: " Financial platform with a modular React architecture that accelerated feature iteration and reduced UI development time by 25%",
+      image: "/finect.png",
       tech: ["html", "tailwind", "javascript", "react"],
       icons: [
         <RiHtml5Fill className="text-orange-600" />,
         <RiTailwindCssFill className="text-teal-400" />,
         <RiJavascriptFill className="text-yellow-400" />,
         <RiReactjsLine className="text-blue-300" />,
+
       ],
-      liveLink: "https://fitness-tracker-dm.vercel.app",
+      liveLink: "https://finect.vercel.app/",
     },
+
 
   ];
 

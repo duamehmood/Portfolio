@@ -3,6 +3,7 @@
 import { RiMenu3Line, RiCloseFill, RiGithubFill, RiLinkedinBoxFill } from "@remixicon/react";
 import { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +37,7 @@ const Navbar = () => {
         <nav className="bg-[#04071D] sticky top-0 z-[9999]">
             <div className="container mx-auto">
                 <div className="flex items-center justify-between py-6 md:gap-0 gap-4">
-                    <h2 className="font-bold text-[24px] text-secondary">Dua Mehmood</h2>
+                   <Link to="/"> <h2 className="font-bold text-[24px] text-secondary cursor-pointer">Dua Mehmood</h2></Link>
                     <ul className="hidden md:flex text-md md:gap-8 gap-1 text-white font-semibold">
                         {["/", "/projects", "/services", "/contact"].map((path, index) => {
                             const labels = ["Home", "Projects", "Services", "Contact"];
