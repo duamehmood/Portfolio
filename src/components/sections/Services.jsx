@@ -16,17 +16,16 @@ const Services = () => {
 
         {
             id: 2,
-            title: "Figma to Next.js",
-            desc: " Building SEO-friendly Next.js applications from your Figma designs.",
-            icon1: "/figma.png",
-            icon2: "/next.png",
+            title: "Django Development",
+            desc: " Building robust Django applications with modern features and best practices.",
+            icon1: "/django.png",
         },
 
         {
             id: 3,
-            title: "PSD to React ",
-            desc: " Converting your PSD designs into dynamic React components.",
-            icon1: "/psd.png",
+            title: "Figma to React",
+            desc: " Building SEO-friendly React applications from your Figma designs.",
+            icon1: "/figma.png",
             icon2: "/react.png",
         },
 

@@ -1,4 +1,4 @@
- import React from 'react'
+import React from 'react'
 
 import ServiceDetailCard from "../components/utils/ServiceDetailCard";
 
@@ -6,43 +6,52 @@ import ServiceDetailCard from "../components/utils/ServiceDetailCard";
 const Services = () => {
 
     const servicesData = [
+
         {
             id: 1,
+            title: "Django Development",
+            desc: " Building robust Django applications with modern features and best practices.",
+            icon1: "/django.png",
+        },
+        {
+            id: 2,
+            title: "Figma to Next.js",
+            desc: " Building SEO-friendly Next.js applications from your Figma designs.",
+            icon1: "/figma.png",
+            icon2: "/next.png",
+        },
+
+
+        {
+            id: 3,
+            title: "Figma to React",
+            desc: " Building SEO-friendly React applications from your Figma designs.",
+            icon1: "/figma.png",
+            icon2: "/react.png",
+        },
+        {
+            id: 4,
             title: "Figma to HTML",
             desc: "Transforming your Figma designs into pixel-perfect HTML/CSS code.",
             icon1: "/figma.png",
             icon2: "/html.png",
         },
         {
-            id: 2,
-            title: "Figma to React",
-            desc: " Converting your Figma designs into dynamic React components.",
-            icon1: "/figma.png",
-            icon2: "/react.png",
-        },
-        {
-            id: 3,
-            title: "Figma to Next.js",
-            desc: " Building SEO-friendly Next.js applications from your Figma designs.",
-            icon1: "/figma.png",
-            icon2: "/next.png",
-        },
-        {
-            id: 4,
+            id: 5,
             title: "PSD to HTML",
             desc: " Transforming your PSD designs into responsive HTML/CSS code.",
             icon1: "/psd.png",
             icon2: "/html.png",
         },
         {
-            id: 5,
+            id: 6,
             title: "PSD to React ",
             desc: " Converting your PSD designs into dynamic React components.",
             icon1: "/psd.png",
             icon2: "/react.png",
         },
         {
-            id: 6,
+            id: 7,
             title: "PSD to Next.js",
             desc: " Building SEO-friendly Next.js applications from your PSD designs.",
             icon1: "/psd.png",

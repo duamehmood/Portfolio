@@ -8,8 +8,8 @@ const About = () => {
     <section className="pb-16 md:pb-24 lg:pb-[100px] bg-primary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
 
-         <h2 className='text-3xl sm:text-4xl md:text-[48px] font-semibold text-center text-white'>About <span className='text-secondary'>Me</span></h2>
-        
+        <h2 className='text-3xl sm:text-4xl md:text-[48px] font-semibold text-center text-white'>About <span className='text-secondary'>Me</span></h2>
+
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white leading-snug sm:leading-tight lg:pt-7 md:pt-6 pt-5 md:pb-6 pb-4">
           Crafting <span className="bg-gradient-to-r from-purple-400 via-pink-500 to-purple-400 bg-clip-text text-transparent">Dynamic Web Experiences</span>
         </h2>
@@ -24,10 +24,12 @@ const About = () => {
         </p>
 
         <a
-          href="/path-to-cv.pdf"
+          href="/Dua-Mehmood-CV.pdf"
+          download="DuaMehmood_Resume.pdf"
           className="cursor-pointer text-white flex items-center justify-center px-5 py-3 sm:px-6 sm:py-3 md:px-[30px] md:py-[15px] gap-2 border border-transparent rounded bg-gradient-to-r from-[#6971A266] to-[#272A3C80] hover:from-[#272A3C80] hover:to-[#6971A266] hover:border-secondary transition-colors duration-200 font-medium text-sm sm:text-base lg:text-[18px]"
         >
-         <RiDownloadFill size="20"  className="text-secondary" /> Download CV 
+          <RiDownloadFill size={20} className="text-secondary" />
+          Download CV
         </a>
       </div>
     </section>

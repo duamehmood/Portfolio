@@ -48,11 +48,16 @@ const SkillsSlider = ({ children }) => {
     },
     {
       id: 9,
+      name: "Python",
+      img: "/python.png"
+    },
+    {
+      id: 10,
       name: "git",
       img: "/git.png"
     },
     {
-      id: 10,
+      id: 11,
       name: "vite",
       img: "/vite.png"
     },
