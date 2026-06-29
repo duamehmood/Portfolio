@@ -127,7 +127,7 @@ const Projects = () => {
 
   ];
 
-  const techOptions = ["All", "html", "javascript", "tailwind", "bootstrap", "react"];
+  const techOptions = ["All", "html", "javascript", "tailwind", "bootstrap", "react", "django"];
 
   const filteredProjects = projectsData.filter((project) => {
     if (selectedTech === "All") return true;

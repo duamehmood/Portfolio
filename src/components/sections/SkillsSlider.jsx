@@ -61,6 +61,11 @@ const SkillsSlider = ({ children }) => {
       name: "vite",
       img: "/vite.png"
     },
+    {
+      id: 12,
+      name: "Django",
+      img: "/django.png" 
+    },
   ];
 
   const settings = {
